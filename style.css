@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body{
+    background: Ivory;
+}
+
+h1{
+    color: DeepSkyBLue;
+    text-align: center;
+    margin: 20px;
+    font-family: 'Macondo Swash Caps', cursive;
+    font-size: 3em;
+    text-shadow: 3px 3px 3px black;
+}
+
+#contour{
+    margin: 0 auto;
+    border: 3px groove gray;
+    padding: 20px;
+    width: 20vw;;
+    background: gray;
+}
+
+#afficher{
+    background: #fff;
+    border: 2px solid;
+    width: 19vw;
+    height: 7vh;
+    font-size: 2em;
+    text-align: right;
+    padding-right: 10px;
+    line-height: 7vh;
+}
+
+table{
+    margin: auto;
+}
+
+td{
+    background: Gainsboro;
+    border: 3px solid DeepSkyBLue;
+    height: 10vh;
+    width: 5vw;
+    text-align: center;
+    font-family: 'Vollkorn SC', serif;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+td:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 45px gray;
+    transition: all 0.3s ease-in;
+    cursor: pointer;
+
+}
