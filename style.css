@@ -35,6 +35,10 @@ h1{
     padding-right: 10px;
     line-height: 7vh;
 }
+#calculPrecedent{
+    font-size: 2rem;
+    text-align: right;
+}
 
 table{
     margin: auto;
